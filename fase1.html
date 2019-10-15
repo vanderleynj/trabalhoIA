@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Home Aspirador">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="Vinícius Borges França">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Fase 1</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+				<a class="nav-link" href="./fase1.html">Fase 01</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="./fase2.html">Fase 02</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="./fase3.html">Fase 03</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="container-app" class="container p-5 border-left border-right">
+			<h1>Fase 1:</h1>
+			<span class="float-left">Movimentos: <span id="contador_movimentos">0</span></span>
+			<span class="float-right">Quadros sujos: <span id="contador_quadros_sujos"></span></span>
+			<div id="container-imgs" class="mt-5 table-responsive">
+			</div>
+			<div id="botoes" class="row mt-5">
+				<div class="col-4 d-flex">
+				</div>
+				<div class="col-4 d-flex justify-content-center">
+					<button id="btn-mover-acima" class="btn btn-primary rounded-circle m-1"><i class="fas fa-arrow-up"></i></button>
+				</div>
+				<div class="col-4">
+				</div>
+				<div class="col-12 d-flex justify-content-center">
+					<button id="btn-mover-esquerda" class="btn btn-primary rounded-circle m-1"><i class="fas fa-arrow-left"></i></button>
+					<button id="btn-limpar" class="btn btn-success rounded-circle m-1"><i class="fas fa-eraser"></i></button>
+					<button id="btn-mover-direita" class="btn btn-primary rounded-circle m-1"><i class="fas fa-arrow-right"></i></button>
+				</div>
+				<div class="col-4">
+				</div>
+				<div class="col-4 d-flex justify-content-center">
+					<button id="btn-mover-abaixo" class="btn btn-primary rounded-circle m-1"><i class="fas fa-arrow-down"></i></button>
+				</div>
+				<div class="col-4">
+				</div>
+				<div class="col-4">
+				</div>
+				<div class="col-4 d-flex justify-content-center">
+					<button id="btn-parado" class="btn btn-danger rounded-circle m-1"><i class="fas fa-stop-circle"></i></button>
+				</div>
+				<div class="col-4">
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<script src="js/fase1/javascript.js"></script>
+	</body>
+</html>
